@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>success</title>
+</head>
+<body>
+    <form action="/failure" method="post">
+
+
+    <div id="success" class="success">
+        <h1 style="font-size: 3em;">Uh! No!!</h1>
+        <p style="font-size: 1.5em;">There is an error on signing up on our page please try again!!!</p>
+        <button>Try again</button>
+    </div>
+    </form>
+    <style>
+        .success{
+
+            width: 100%;
+            background-color: aliceblue;
+            height: 400px;
+        }
+        h1,p,button{
+            
+            position: relative;
+            left: 80px;
+            top: 100px;
+        }
+        button{
+            width: 200px;
+            height: 40px;
+            background-color: rgb(150, 150, 10);
+            border-radius: 10px;
+        }
+        button:hover{
+            background-color: rgb(211, 211, 9);
+            cursor: pointer;
+        }
+    </style>
+</body>
+</html>

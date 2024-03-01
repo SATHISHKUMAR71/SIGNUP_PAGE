@@ -1,0 +1,66 @@
+ 
+       
+    #flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 95vh;
+    }
+    #firstname{
+        border-top-right-radius: 6px;
+        border-top-left-radius: 6px;
+    }
+    #email{
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    } 
+    input{
+        font-size: 18px;
+        width: 250px;
+        height: 30px;
+        margin-top: -1px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        padding: 5px;
+    } 
+    input:focus{
+        outline: none; 
+        box-shadow: 0px 0px 10px #0467fc;
+        
+    }
+    form{
+        width: fit-content;
+    }
+    form>h1{
+        text-align: center;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+    }
+    button{
+        font-size: 18px;
+        border-radius: 15px;
+        width: 260px;
+        height: 40px;
+        background-color: rgb(22, 98, 175);
+    }
+    button:hover{
+        background-color:dodgerblue;
+        cursor: pointer;
+    }
+    .copyright{
+        text-align: center;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    #img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
